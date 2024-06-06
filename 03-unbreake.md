@@ -35,3 +35,48 @@ $f'(x) = \lim\limits_{\Delta x \to 0^-} \frac{\Delta f}{\Delta x}$
 - если функция дифференцируема в некоторой точке, то она в ней непрерывана
 - *обратное утверждение неверно!* есть множество непрерывных всюду функций, но у которых нет производных в отдельных точках
 
+## Приёмы взятия производных
+### Таблица базовых производных
+$(x^n)' = n \cdot x^{n-1}$ \
+$(a^x)' = a^x \cdot ln(a)$ \
+$(log_a x)' = \frac{1}{x \cdot ln(a)}$ \
+$(\sin x)' = \cos x$ \
+$(\cos x)' = -\sin x$ \
+$(tg x)' = \frac{1}{\cos^2 x}$ \
+$(ctg \ x)' = -\frac{1}{\sin^2 x}$ \
+$(\arcsin x)' = \frac{1}{\sqrt {1-x^2}}$ \
+$(\arccos x)' = \frac{-1}{\sqrt {1-x^2}}$ \
+$(arctg \ x)' = \frac{1}{1+x^2}$ \
+$(arcctg \ x)' = \frac{-1}{1+x^2}$
+
+### Основные свойства производных
+$(f(x) \pm g(x))' = f'(x) \pm g'(x)$ \
+$(f(x) \cdot g(x))' = f'(x) \cdot g(x) + f(x) \cdot g'(x)$ \
+$(const \cdot f(x))' = const \cdot f'(x)$ \
+$(\frac{f(x)}{g(x)})' = \frac{f'(x) \cdot g(x) - f(x) \cdot g'(x)}{g^2(x)}$ \
+$(const)' = 0$ \
+$f'(g(x)) = f'_g \cdot g'_x$
+
+### Таблица базовых производных для функций
+$(f^n)' = n \cdot f^{n-1} \cdot f'$ \
+$(a^f)' = a^f \cdot ln(a) \cdot f'$ \
+$(log_a f)' = \frac{1}{f \cdot ln(a)} \cdot f'$ \
+$(\sin f)' = \cos f \cdot f'$ \
+$(\cos f)' = -\sin f \cdot f'$ \
+$(tg f)' = \frac{1}{\cos^2 f} \cdot f'$ \
+$(ctg \ f)' = -\frac{1}{\sin^2 f} \cdot f'$ \
+$(\arcsin f)' = \frac{1}{\sqrt {1-f^2}} \cdot f'$ \
+$(\arccos f)' = \frac{-1}{\sqrt {1-f^2}} \cdot f'$ \
+$(arctg \ f)' = \frac{1}{1+f^2} \cdot f'$ \
+$(arcctg \ f)' = \frac{-1}{1+f^2} \cdot f'$
+
+### Нотации и формулы дифференциала
+- в математике часто можно встретить выражение $dx, \ dy$
+- по факту это  очень маленькие $\Delta x, \Delta y$ , где "дельта" $\to 0$
+- дифференциалом называют линейную часть приращения функции
+- $\Delta y = \frac{\Delta y}{\Delta x} \cdot \Delta x \ \to \ dy = \frac{dy}{dx} \cdot dx = y'_x \cdot dx$
+- например, для $f(x) = x^2$
+- $df = 2 \cdot x \cdot dx
+
+## Конспект
+[Конспект по непрерывности и дифферинцируемости функций](https://www.notion.so/3-cb87acf1d772472f8161455aef661ef0?pvs=4)
